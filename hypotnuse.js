@@ -1,5 +1,5 @@
 const sides = document.querySelectorAll(".side-input");
-const hypotenuseBtn = document.querySelector("#hypotenuse-btn");
+const hypotnuseBtn = document.querySelector("#hypotnuse-btn");
 const outputEl = document.querySelector("#output");
 
 sides.onkeydown = function(e) {
@@ -15,10 +15,10 @@ function calculateSumOfSquares(a, b) {
     return sumOfSquares;
 }
 
-function calculateHypotenuse() {
+function calculateHypotnuse() {
     const sumOfSquares = calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value));
-    const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
-    outputEl.textContent = "The length of Hypotenuse is " + lengthOfHypotenuse
+    const lengthOfHypotnuse = Math.sqrt(sumOfSquares);
+    outputEl.textContent = "The length of Hypotnuse is " + lengthOfHypotenuse
 }
 
-hypotenuseBtn.addEventListener("click", calculateHypotenuse);
+hypotnuseBtn.addEventListener("click", calculateHypotnuse);
