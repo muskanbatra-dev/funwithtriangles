@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hypotenuse.css">
+    <title>Hypotenuse</title>
+</head>
+
+<body>
+    <nav>
+        <a href="istriangle.html">Is Triangle?</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="areaoftriangle.html">Area</a>
+    </nav>
+    <div>
+        <h1>Calculate Hypotenuse</h1>
+        <label for="">A = </label>
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="side-input">
+        <br>
+        <label for="">B = </label>
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="side-input">
+        <br>
+        <button id="hypotenuse-btn">Calculate Hypotenuse</button>
+        <div id="output"></div>
+        <script src="hypotenuse.js"></script>
+    </div>
+</body>
+
+</html

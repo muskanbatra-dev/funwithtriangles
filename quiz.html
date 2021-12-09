@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Triangle Quiz</title>
+</head>
+
+<body>
+    <nav>
+        <a href="istriangle.html">Is Triangle?</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="areaoftriangle.html">Area</a>
+    </nav>
+    <div>
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p> What is a triangle ?</p>
+                <label>
+                    <input type="radio" name="question1" value="A triangle is a three-sided polygon">A triangle is a three-sided polygon
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="A triangle is a two-sided polygon">A triangle is a two-sided polygon
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="A triangle is a four-sided polygon">A triangle is a four-sided polygon
+                </label>
+            </div>
+            <div class="question-container">
+                <p>What is the Third Angle for the Triangle where Angle 1 = 45° and Angle 2 = 45° ?</p>
+                <label>
+                    <input type="radio" name="question2" value="45°">45°
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="60°">60°
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="90°">90°
+                </label>
+            </div>
+            <div class="question-container">
+                <p>If Triangle has an Angle of 90°, What is it called?</p>
+                <label>
+                    <input type="radio" name="question3" value="obtuse">Obtuse Angle
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="acute">Acute Angle
+                </label>
+                <label>
+                    <input type="radio" name="question3" value="right angled">Right Angled
+                </label>
+            </div>
+            <div class="question-container">
+                <p> If the height of a triangle is 7cm and base length is equal to 10 cm, then find its area.</p>
+                <label>
+                    <input type="radio" name="question4" value="50 cm2">50 cm2
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="35 cm2">35 cm2
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="10 cm2">10 cm2
+                </label>
+            </div>
+            <div class="question-container">
+                <p> The side length of an equilateral triangle is 12cm. Find its area.</p>
+                <label>
+                    <input type="radio" name="question5" value="A = 38.86">A = 38.86
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="A = 56.12">A = 56.12
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="A = 62.35">A = 62.35
+                </label>
+            </div>
+            
+        </form>
+        <button id="submit-answer-btn">Submit Answer</button>
+        <div id="output"></div>
+        <script src="quiz.js"></script>
+    </div>
+</body>
+
+</html>
